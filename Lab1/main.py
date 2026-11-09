@@ -82,7 +82,7 @@ def error_analysis(t_end=1.0):
     fig.tight_layout()
     fig.savefig(f"{OUT}/errors.png", dpi=120)
 
-def error_over_time(t_end=2.0, hs=(0.1, 0.05, 0.025, 0.0125)):
+def error_over_time(t_end=120.0, hs=(0.1, 0.05, 0.025, 0.0125)):
     fig, axes = plt.subplots(2, 3, figsize=(16, 9))
     axes = axes.ravel()
  
